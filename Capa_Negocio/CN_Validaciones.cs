@@ -14,18 +14,59 @@ namespace Capa_Negocio
 
         public static bool SoloNumero(TextBox  T1)
     {
-            MessageBox.Show("Solo numeros admitidos");
-             return true;
+            try
+            {
+                int a;
+
+                a = int.Parse(T1.ToString());
+                return true;
+
+            }
+            catch 
+            {
+
+               
+                return false;
+
+            }
+
+            
     }
         public static bool SoloNumero(TextBox T1, TextBox T2)
         {
-            MessageBox.Show("Solo numeros admitidos");
-            return true;
+            try
+            {
+                int a;
+
+                a = int.Parse(T1.ToString());
+                return true;
+
+            }
+            catch
+            {
+
+
+                return false;
+
+            }
         }
         public static bool SoloNumero(TextBox T1, TextBox T2, TextBox T3)
         {
-            MessageBox.Show("Solo numeros admitidos");
-            return true;
+            try
+            {
+                int a;
+
+                a = int.Parse(T1.ToString());
+                return true;
+
+            }
+            catch
+            {
+
+
+                return false;
+
+            }
         }
 
 
