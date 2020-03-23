@@ -1,0 +1,108 @@
+
+.Div_Izquierda .Contactos {
+    text-align: center;
+    width: 250px;
+    height: 51px;
+    font-family: JavaneseText;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.11;
+    letter-spacing: 13.25px;
+    color: #0047ff;
+    margin-top: 270px;
+    margin-left: 100px;
+  }
+header{
+
+
+  
+
+position: absolute;
+width: 1109px;
+height: 183px;
+
+background: #476BB5;
+}
+.Icono_Logo {
+    position: absolute;
+    width: 205.56px;
+    height: 175px;
+
+}
+
+.Btn_Nuevo {
+
+    
+    position: absolute;
+    width: 71.66px;
+    height: 94px;
+    background-image:url(/Agenda/src/Btn_Nuevo.svg);
+    background: #476BB5;
+
+}
+.Div_Header {
+    width: 1109px;
+    height: 183px;
+    object-fit: contain;
+  }
+
+  .icons8_add_30px-1 {
+    width: 52px;
+    height: 39px;
+    background-image:url(/Agenda/img/Btn_Nuevo.svg)
+  }
+  .Btn_Guardar {
+    width: 71.7px;
+    height: 94px;
+    background-color: #476bb5;
+  }
+  :root {
+    --french-blue: #476bb5;
+}
+        .menuIzquierdo{
+      
+          /* Div_Izquierdo */
+      
+      
+      
+      width: 376px;
+      height: 841px;
+      left: 166px;
+      top: 183px;
+      
+      background: #F5F5F5;
+        }
+    .Div_Izquierda .letrasistema 
+  {
+    
+   margin-left: 70px;
+    width: 253px;
+    height: 128px;
+    left: 257px;
+    top: 288px;
+    
+    font-family: Javanese Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 56px;
+    /* or 233% */
+    
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    
+    color: #000000;
+
+  }
+  
+  .Div_Izquierda {
+    width: 376px;
+    height: 841px;
+    object-fit: contain;
+    margin-top: 181px;
+    background: #F5F5F5;
+  }
+
