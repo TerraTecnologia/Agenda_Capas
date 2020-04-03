@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Capa_Dato
+namespace Capa_Negocio
 {
-    public class Class1
+    interface iContactosRepository
     {
+        IEnumerable<Contacto> ListarContactos();
+
     }
 }
